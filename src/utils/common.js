@@ -8,9 +8,8 @@ export const sliderSettings = {
         600: {
             slidesPerView: 2
         },
-        slidesPerView: 3
-    },
-    1100: {
-        slidesPerView: 4
+        1100: {
+            slidesPerView: 3
+        }
     },
 }
