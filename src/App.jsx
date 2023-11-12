@@ -4,6 +4,7 @@ import Companies from './components/Companies/Companies';
 import './App.css';
 import Residencies from './components/Residencies/Residencies';
 import Value from './components/Value/Value';
+import Contact from './components/Contact/Contact';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Companies />
       <Residencies />
       <Value />
+      <Contact />
     </div>
   );
 }
