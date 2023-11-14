@@ -55,7 +55,7 @@ const Contact = () => {
                                     <BsFillChatDotsFill size={25} />
                                 </div>
                                 <div className="flexColStart detail">
-                                    <span className='primaryText'>Video Call</span><span className='secondaryText'>021 123 145 14</span>
+                                    <span className='primaryText'>VideoCall</span><span className='secondaryText'>021 123 145 14</span>
                                 </div>
                             </div>
 

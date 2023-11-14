@@ -7,7 +7,7 @@ import OutsideClickHandler from "react-outside-click-handler";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const getMenuStyles = (showMenu) => {
-    if(document.documentElement.clientWidth <= 800){
+    if(document.documentElement.clientWidth <= 768){
     return {right: !showMenu && "-100%"}
       
   }
@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <section className="h-wrapper">
-      <div className="flexCenter paddings innerWidth h-container">
+      <div className="paddings innerWidth h-container">
         <img src="./logo.png" alt="logo" width={100} />
 
         <OutsideClickHandler onOutsideClick={()=>{setShowMenu(false)}}>

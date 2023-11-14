@@ -9,7 +9,7 @@ const Residencies = () => {
   return (
     <section className="r-wrapper">
       <div className="paddings innerWidth r-container">
-        <div className="r-head flexColStart">
+        <div className="r-head flexColCenter">
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residencies</span>
         </div>
